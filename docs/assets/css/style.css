@@ -281,7 +281,6 @@ section {
   color: #fff;
 }
 
-
 /**
 * Mobile Navigation 
 */
@@ -311,10 +310,45 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #0061a5;
+  background: rgba(27, 49, 94, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #101c36;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
+  color: #2d71a1;
+}
+
+
 
 
 /*--------------------------------------------------------------
